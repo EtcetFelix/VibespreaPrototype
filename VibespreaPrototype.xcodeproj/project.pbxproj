@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		382A60C829482F5900F63C1B /* AppMeshNetworkDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60C729482F5900F63C1B /* AppMeshNetworkDelegate.swift */; };
+		382A60CA29493D1E00F63C1B /* NetworkConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60C929493D1E00F63C1B /* NetworkConnection.swift */; };
+		382A60CC29496A6800F63C1B /* DropDownButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60CB29496A6800F63C1B /* DropDownButton.swift */; };
+		382A60CE294989F000F63C1B /* CentralManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60CD294989F000F63C1B /* CentralManagerDelegate.swift */; };
+		382A60D0294ECBCD00F63C1B /* ProvisioningManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60CF294ECBCD00F63C1B /* ProvisioningManagerDelegate.swift */; };
+		382A60D42950155700F63C1B /* provisioningBearerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60D32950155700F63C1B /* provisioningBearerDelegate.swift */; };
+		382A60DC2952A24600F63C1B /* generalError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60DB2952A24600F63C1B /* generalError.swift */; };
+		382A60DF2954BA7C00F63C1B /* ProvisioningCapabilitesPdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60DE2954BA7C00F63C1B /* ProvisioningCapabilitesPdu.swift */; };
+		382A60E42954CB7F00F63C1B /* Int+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60E32954CB7F00F63C1B /* Int+Hex.swift */; };
+		382A60E6295627B100F63C1B /* ProvisioningPdu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60E5295627B100F63C1B /* ProvisioningPdu.swift */; };
+		382A60E92956C9F400F63C1B /* Crypto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60E82956C9F400F63C1B /* Crypto.swift */; };
+		382A60EB29578A1400F63C1B /* ProvisioningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60EA29578A1400F63C1B /* ProvisioningData.swift */; };
+		382A60ED295A6A4500F63C1B /* MeshData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60EC295A6A4500F63C1B /* MeshData.swift */; };
+		382A60EF295A8C3A00F63C1B /* MeshNetworkNewDevice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60EE295A8C3A00F63C1B /* MeshNetworkNewDevice.swift */; };
+		382A60F1295A910900F63C1B /* IVIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60F0295A910900F63C1B /* IVIndex.swift */; };
+		382A60F7295AA3A400F63C1B /* NetworkKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60F6295AA3A400F63C1B /* NetworkKey.swift */; };
+		382A60F9295CA63D00F63C1B /* UnprovisionedDeviceProvisioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 382A60F8295CA63D00F63C1B /* UnprovisionedDeviceProvisioning.swift */; };
+		388FCA72294510550064FE05 /* PeripheralManagerDelegateForProvisioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FCA71294510550064FE05 /* PeripheralManagerDelegateForProvisioning.swift */; };
+		388FCA74294585A10064FE05 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388FCA73294585A10064FE05 /* AppModel.swift */; };
+		388FCA7729469C430064FE05 /* NordicMesh in Frameworks */ = {isa = PBXBuildFile; productRef = 388FCA7629469C430064FE05 /* NordicMesh */; };
 		38FA9FCB293BB21700D90C32 /* VibespreaPrototypeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FA9FCA293BB21700D90C32 /* VibespreaPrototypeApp.swift */; };
 		38FA9FCD293BB21700D90C32 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FA9FCC293BB21700D90C32 /* Persistence.swift */; };
 		38FA9FD0293BB21700D90C32 /* VibespreaPrototype.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 38FA9FCE293BB21700D90C32 /* VibespreaPrototype.xcdatamodeld */; };
@@ -16,6 +36,7 @@
 		38FA9FE2293BB21900D90C32 /* VibespreaPrototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FA9FE1293BB21900D90C32 /* VibespreaPrototypeTests.swift */; };
 		38FA9FEC293BB21900D90C32 /* VibespreaPrototypeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FA9FEB293BB21900D90C32 /* VibespreaPrototypeUITests.swift */; };
 		38FA9FEE293BB21900D90C32 /* VibespreaPrototypeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FA9FED293BB21900D90C32 /* VibespreaPrototypeUITestsLaunchTests.swift */; };
+		38FAA0A52943ABDD00D90C32 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38FAA0A42943ABDD00D90C32 /* HomeScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +57,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		382A60C729482F5900F63C1B /* AppMeshNetworkDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMeshNetworkDelegate.swift; sourceTree = "<group>"; };
+		382A60C929493D1E00F63C1B /* NetworkConnection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConnection.swift; sourceTree = "<group>"; };
+		382A60CB29496A6800F63C1B /* DropDownButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownButton.swift; sourceTree = "<group>"; };
+		382A60CD294989F000F63C1B /* CentralManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentralManagerDelegate.swift; sourceTree = "<group>"; };
+		382A60CF294ECBCD00F63C1B /* ProvisioningManagerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningManagerDelegate.swift; sourceTree = "<group>"; };
+		382A60D2294FA5DF00F63C1B /* IOS-nRF-Mesh-Library */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "IOS-nRF-Mesh-Library"; path = "../../../../Documents/IOS-nRF-Mesh-Library"; sourceTree = "<group>"; };
+		382A60D32950155700F63C1B /* provisioningBearerDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = provisioningBearerDelegate.swift; sourceTree = "<group>"; };
+		382A60DB2952A24600F63C1B /* generalError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generalError.swift; sourceTree = "<group>"; };
+		382A60DE2954BA7C00F63C1B /* ProvisioningCapabilitesPdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningCapabilitesPdu.swift; sourceTree = "<group>"; };
+		382A60E32954CB7F00F63C1B /* Int+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Hex.swift"; sourceTree = "<group>"; };
+		382A60E5295627B100F63C1B /* ProvisioningPdu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningPdu.swift; sourceTree = "<group>"; };
+		382A60E82956C9F400F63C1B /* Crypto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crypto.swift; sourceTree = "<group>"; };
+		382A60EA29578A1400F63C1B /* ProvisioningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProvisioningData.swift; sourceTree = "<group>"; };
+		382A60EC295A6A4500F63C1B /* MeshData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshData.swift; sourceTree = "<group>"; };
+		382A60EE295A8C3A00F63C1B /* MeshNetworkNewDevice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshNetworkNewDevice.swift; sourceTree = "<group>"; };
+		382A60F0295A910900F63C1B /* IVIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IVIndex.swift; sourceTree = "<group>"; };
+		382A60F6295AA3A400F63C1B /* NetworkKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkKey.swift; sourceTree = "<group>"; };
+		382A60F8295CA63D00F63C1B /* UnprovisionedDeviceProvisioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnprovisionedDeviceProvisioning.swift; sourceTree = "<group>"; };
+		388FCA71294510550064FE05 /* PeripheralManagerDelegateForProvisioning.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralManagerDelegateForProvisioning.swift; sourceTree = "<group>"; };
+		388FCA73294585A10064FE05 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
 		38FA9FC7293BB21700D90C32 /* VibespreaPrototype.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VibespreaPrototype.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FA9FCA293BB21700D90C32 /* VibespreaPrototypeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibespreaPrototypeApp.swift; sourceTree = "<group>"; };
 		38FA9FCC293BB21700D90C32 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
@@ -49,6 +90,8 @@
 		38FA9FE7293BB21900D90C32 /* VibespreaPrototypeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VibespreaPrototypeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		38FA9FEB293BB21900D90C32 /* VibespreaPrototypeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibespreaPrototypeUITests.swift; sourceTree = "<group>"; };
 		38FA9FED293BB21900D90C32 /* VibespreaPrototypeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VibespreaPrototypeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		38FAA0A42943ABDD00D90C32 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		38FAA0A62944DE2200D90C32 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				388FCA7729469C430064FE05 /* NordicMesh in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +120,91 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		382A60D5295026D800F63C1B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				382A60CB29496A6800F63C1B /* DropDownButton.swift */,
+				38FA9FD1293BB21700D90C32 /* ContentView.swift */,
+				38FAA0A42943ABDD00D90C32 /* HomeScreen.swift */,
+				382A60DB2952A24600F63C1B /* generalError.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		382A60D7295026F600F63C1B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				388FCA73294585A10064FE05 /* AppModel.swift */,
+				382A60EC295A6A4500F63C1B /* MeshData.swift */,
+				382A60EE295A8C3A00F63C1B /* MeshNetworkNewDevice.swift */,
+				382A60F0295A910900F63C1B /* IVIndex.swift */,
+				382A60F6295AA3A400F63C1B /* NetworkKey.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		382A60D82950271500F63C1B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				382A60CD294989F000F63C1B /* CentralManagerDelegate.swift */,
+				382A60C729482F5900F63C1B /* AppMeshNetworkDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		382A60DD2954BA3F00F63C1B /* PeripheralPDUS */ = {
+			isa = PBXGroup;
+			children = (
+				382A60DE2954BA7C00F63C1B /* ProvisioningCapabilitesPdu.swift */,
+				382A60E5295627B100F63C1B /* ProvisioningPdu.swift */,
+			);
+			path = PeripheralPDUS;
+			sourceTree = "<group>";
+		};
+		382A60E22954CB3900F63C1B /* TypeExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				382A60E32954CB7F00F63C1B /* Int+Hex.swift */,
+			);
+			path = TypeExtensions;
+			sourceTree = "<group>";
+		};
+		382A60E7295650D800F63C1B /* utilities */ = {
+			isa = PBXGroup;
+			children = (
+				382A60E82956C9F400F63C1B /* Crypto.swift */,
+				382A60EA29578A1400F63C1B /* ProvisioningData.swift */,
+			);
+			path = utilities;
+			sourceTree = "<group>";
+		};
+		382A60FA295E1C7F00F63C1B /* Provisioning */ = {
+			isa = PBXGroup;
+			children = (
+				382A60FC295E1EE700F63C1B /* Protocols */,
+				382A60FB295E1EDE00F63C1B /* Delegates */,
+			);
+			path = Provisioning;
+			sourceTree = "<group>";
+		};
+		382A60FB295E1EDE00F63C1B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				382A60CF294ECBCD00F63C1B /* ProvisioningManagerDelegate.swift */,
+				382A60D32950155700F63C1B /* provisioningBearerDelegate.swift */,
+				388FCA71294510550064FE05 /* PeripheralManagerDelegateForProvisioning.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		382A60FC295E1EE700F63C1B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				382A60F8295CA63D00F63C1B /* UnprovisionedDeviceProvisioning.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		38FA9FBE293BB21700D90C32 = {
 			isa = PBXGroup;
 			children = (
@@ -99,13 +228,22 @@
 		38FA9FC9293BB21700D90C32 /* VibespreaPrototype */ = {
 			isa = PBXGroup;
 			children = (
+				382A60FA295E1C7F00F63C1B /* Provisioning */,
+				382A60E7295650D800F63C1B /* utilities */,
+				382A60E22954CB3900F63C1B /* TypeExtensions */,
+				382A60DD2954BA3F00F63C1B /* PeripheralPDUS */,
+				382A60D2294FA5DF00F63C1B /* IOS-nRF-Mesh-Library */,
+				38FAA0A62944DE2200D90C32 /* Info.plist */,
 				38FA9FCA293BB21700D90C32 /* VibespreaPrototypeApp.swift */,
 				38FA9FCC293BB21700D90C32 /* Persistence.swift */,
-				38FA9FD1293BB21700D90C32 /* ContentView.swift */,
+				382A60D7295026F600F63C1B /* Models */,
+				382A60D5295026D800F63C1B /* Views */,
 				38FA9FD3293BB21800D90C32 /* Assets.xcassets */,
+				382A60D82950271500F63C1B /* Delegates */,
 				38FA9FD5293BB21800D90C32 /* VibespreaPrototype.entitlements */,
 				38FA9FCE293BB21700D90C32 /* VibespreaPrototype.xcdatamodeld */,
 				38FA9FD6293BB21800D90C32 /* Preview Content */,
+				382A60C929493D1E00F63C1B /* NetworkConnection.swift */,
 			);
 			path = VibespreaPrototype;
 			sourceTree = "<group>";
@@ -151,6 +289,9 @@
 			dependencies = (
 			);
 			name = VibespreaPrototype;
+			packageProductDependencies = (
+				388FCA7629469C430064FE05 /* NordicMesh */,
+			);
 			productName = VibespreaPrototype;
 			productReference = 38FA9FC7293BB21700D90C32 /* VibespreaPrototype.app */;
 			productType = "com.apple.product-type.application";
@@ -223,6 +364,9 @@
 				Base,
 			);
 			mainGroup = 38FA9FBE293BB21700D90C32;
+			packageReferences = (
+				388FCA7529469C420064FE05 /* XCRemoteSwiftPackageReference "IOS-nRF-Mesh-Library" */,
+			);
 			productRefGroup = 38FA9FC8293BB21700D90C32 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -265,10 +409,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				382A60ED295A6A4500F63C1B /* MeshData.swift in Sources */,
+				382A60E42954CB7F00F63C1B /* Int+Hex.swift in Sources */,
+				382A60C829482F5900F63C1B /* AppMeshNetworkDelegate.swift in Sources */,
 				38FA9FCB293BB21700D90C32 /* VibespreaPrototypeApp.swift in Sources */,
+				382A60D42950155700F63C1B /* provisioningBearerDelegate.swift in Sources */,
+				382A60F1295A910900F63C1B /* IVIndex.swift in Sources */,
+				382A60F7295AA3A400F63C1B /* NetworkKey.swift in Sources */,
+				382A60DC2952A24600F63C1B /* generalError.swift in Sources */,
+				382A60E92956C9F400F63C1B /* Crypto.swift in Sources */,
+				382A60CC29496A6800F63C1B /* DropDownButton.swift in Sources */,
+				388FCA74294585A10064FE05 /* AppModel.swift in Sources */,
+				38FAA0A52943ABDD00D90C32 /* HomeScreen.swift in Sources */,
 				38FA9FCD293BB21700D90C32 /* Persistence.swift in Sources */,
+				382A60EB29578A1400F63C1B /* ProvisioningData.swift in Sources */,
+				382A60EF295A8C3A00F63C1B /* MeshNetworkNewDevice.swift in Sources */,
+				382A60DF2954BA7C00F63C1B /* ProvisioningCapabilitesPdu.swift in Sources */,
+				382A60E6295627B100F63C1B /* ProvisioningPdu.swift in Sources */,
+				388FCA72294510550064FE05 /* PeripheralManagerDelegateForProvisioning.swift in Sources */,
+				382A60D0294ECBCD00F63C1B /* ProvisioningManagerDelegate.swift in Sources */,
+				382A60F9295CA63D00F63C1B /* UnprovisionedDeviceProvisioning.swift in Sources */,
 				38FA9FD2293BB21700D90C32 /* ContentView.swift in Sources */,
 				38FA9FD0293BB21700D90C32 /* VibespreaPrototype.xcdatamodeld in Sources */,
+				382A60CA29493D1E00F63C1B /* NetworkConnection.swift in Sources */,
+				382A60CE294989F000F63C1B /* CentralManagerDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -355,6 +519,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,6 +572,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -427,6 +593,11 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VibespreaPrototype/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is required to use this app :) TURN IT ON";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -437,7 +608,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -465,6 +636,11 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VibespreaPrototype/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSBluetoothAlwaysUsageDescription = "Bluetooth is required to use this app :) TURN IT ON";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -475,7 +651,7 @@
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
@@ -620,6 +796,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		388FCA7529469C420064FE05 /* XCRemoteSwiftPackageReference "IOS-nRF-Mesh-Library" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/NordicSemiconductor/IOS-nRF-Mesh-Library";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		388FCA7629469C430064FE05 /* NordicMesh */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 388FCA7529469C420064FE05 /* XCRemoteSwiftPackageReference "IOS-nRF-Mesh-Library" */;
+			productName = NordicMesh;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		38FA9FCE293BB21700D90C32 /* VibespreaPrototype.xcdatamodeld */ = {
