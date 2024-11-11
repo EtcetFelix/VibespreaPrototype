@@ -1,4 +1,4 @@
-//
+ //
 //  VibespreaPrototypeApp.swift
 //  VibespreaPrototype
 //
@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+
 
 @main
 struct VibespreaPrototypeApp: App {
