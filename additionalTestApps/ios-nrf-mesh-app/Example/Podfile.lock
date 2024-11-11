@@ -1,0 +1,23 @@
+PODS:
+  - CryptoSwift (1.5.1)
+  - nRFMeshProvision (3.2.0):
+    - CryptoSwift (= 1.5.1)
+
+DEPENDENCIES:
+  - nRFMeshProvision (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - CryptoSwift
+
+EXTERNAL SOURCES:
+  nRFMeshProvision:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CryptoSwift: c4f2debceb38bf44c80659afe009f71e23e4a082
+  nRFMeshProvision: 0f0a0b9e83e4a77bb4df1b7dfdb3838f526875d0
+
+PODFILE CHECKSUM: 7cc7716b26d7b48417d133ade7f226b124142378
+
+COCOAPODS: 1.11.3
